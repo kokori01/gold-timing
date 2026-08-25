@@ -1,0 +1,10 @@
+[project]
+name = "gold-timing"
+version = "0.1.0"
+description = "Does timing gold beat holding gold, and is insurance cheaper than timing?"
+requires-python = ">=3.9"
+dependencies = ["numpy<2", "pandas<2.3", "scipy<1.14", "yfinance", "pyarrow"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
