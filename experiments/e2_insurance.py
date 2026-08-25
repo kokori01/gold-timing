@@ -141,7 +141,7 @@ def main() -> int:
         c.to_csv(RESULTS / "e2_comparison.csv", index=False)
 
     df.to_csv(RESULTS / "e2_insurance.csv", index=False)
-    print(f"\nwritten: {RESULTS}/e2_insurance.csv")
+    print("\nwritten: results/e2_insurance.csv")
     return 0
 
 

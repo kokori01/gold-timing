@@ -65,4 +65,4 @@ F_core_overlay      16         0.0208                 0.8750              -0.006
 G_core_dvol         16         0.0056                 0.7500              -0.0004                 0.3125             -0.0787
 
 trials: {'n_trials': 103, 'n_distinct_configs': 97, 'sharpe_var': 0.0539731777636234}
-written: /Users/kokori/Projects/gold-timing/results/e1_gld.csv, /Users/kokori/Projects/gold-timing/results/e1_cross_section.csv
+written: results/e1_gld.csv, results/e1_cross_section.csv

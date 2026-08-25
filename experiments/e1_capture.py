@@ -94,7 +94,7 @@ def main() -> int:
 
     df.to_csv(RESULTS / "e1_gld.csv", index=False)
     print(f"\ntrials: {trial_stats('e1_capture')}")
-    print(f"written: {RESULTS}/e1_gld.csv, {RESULTS}/e1_cross_section.csv")
+    print("written: results/e1_gld.csv, results/e1_cross_section.csv")
     return 0
 
 
