@@ -1,5 +1,9 @@
 # gold-timing
 
+[![CI](https://github.com/kokori01/gold-timing/actions/workflows/ci.yml/badge.svg)](https://github.com/kokori01/gold-timing/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 **One question:** for the objective *"participate when gold rises, don't give back
 profits when it falls"* — does any timing rule beat simply holding gold, and is
 buying that payoff as a put spread cheaper than synthesising it?

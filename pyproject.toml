@@ -2,8 +2,18 @@
 name = "gold-timing"
 version = "0.1.0"
 description = "Does timing gold beat holding gold, and is insurance cheaper than timing?"
+readme = "README.md"
 requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "kokori01" }]
 dependencies = ["numpy<2", "pandas<2.3", "scipy<1.14", "yfinance", "pyarrow"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.urls]
+Repository = "https://github.com/kokori01/gold-timing"
+Issues = "https://github.com/kokori01/gold-timing/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

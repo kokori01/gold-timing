@@ -6,3 +6,4 @@ data/*.csv
 results/*.csv
 results/*.json
 .pytest_cache/
+.DS_Store
